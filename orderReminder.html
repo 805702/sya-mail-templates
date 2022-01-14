@@ -82,6 +82,22 @@
       .action-button {
         text-align: center;
       }
+      .order-details > .order-details-header {
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+      .order-items {
+        padding-left: 20px;
+      }
+      .order-item {
+        padding: 5px 0;
+      }
+      .order-item > span:first-of-type {
+        font-weight: bold;
+      }
+      .nb-block > span:first-of-type {
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -92,34 +108,52 @@
       />
       <div>See You Again ( SYA )</div>
     </header>
-    <h1>Account Creation</h1>
+    <h1>Order Reminder</h1>
     <div class="content">
       <div>
-        Thank you for signin up on SYA, the number 1 entertaintment platform in
-        Cameroun. We wish you a great stay with us and hope you bring more
-        people.
+        This is to notify you that your order has been registered and sent to
+        the structure for processing.
       </div>
-      <div>
-        This Sign-up brought you 100 SYA’s to use in any SYA Structure on the
-        platform for your pruchases.
-      </div>
-      <div>
-        If you want to get more SYA, to win 10SYA, connect your friends unto the
-        platform by using your referal link
-        <a href="https://www.seeyouagain.fun/signup/09037">
-          https://www.seeyouagain.fun/signup/09037</a
+      <div class="nb-block">
+        <span>NB: </span>
+        <span
+          >If the order due date passes, then the order will be automatically
+          cancelled</span
         >
+      </div>
+      <div class="order-details">
+        <div class="order-details-header">Order details</div>
+        <div class="order-items">
+          <div class="order-item">
+            <span>Structure : </span>
+            <span>La reserve du nde</span>
+          </div>
+          <div class="order-item">
+            <span>Ordered services : </span>
+            <span>1 x manicure pedicure</span>
+          </div>
+          <div class="order-item">
+            <span>Service Date : </span>
+            <span>27/05/2022</span>
+          </div>
+          <div class="order-item">
+            <span>Payment : </span>
+            <span>Pending</span>
+          </div>
+          <div class="order-item">
+            <span>Confirmation status : </span>
+            <span>Status</span>
+          </div>
+        </div>
       </div>
     </div>
     <div class="action-button">
-      <a href="https://www.seeyouagain.fun"
-        ><button>Start Shopping Now</button></a
-      >
+      <a href="#"><button>Confirm Order</button></a>
     </div>
 
     <div class="before-footer">
-      More information on the collaboration between your structure and the SYA
-      team can be found in the <a href="#">terms of agreement</a> document.
+      Thank you for always trusting SYA the number 1 entertaintment platform in
+      Cameroon.
     </div>
 
     <footer>
@@ -131,9 +165,9 @@
       </div>
       <div>SYA LLC, Douala - Akwa - 12e Rue</div>
       <div>
-        You are receving this email because you’re registered for the structure
-        on the SYA platform If it is not the case we sincerely apologize. You
-        can <a href="#">signal the error here</a> to stop receiving mails
+        You are receving this email because you’re registered on the SYA
+        platform If it is not the case we sincerely apologize. You can
+        <a href="#">signal the error here</a> to stop receiving mails
       </div>
     </footer>
   </body>

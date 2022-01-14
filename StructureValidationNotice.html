@@ -55,7 +55,7 @@
       }
       .before-footer {
         font-size: 0.85rem;
-        text-align: center;
+        text-align: justify;
       }
       footer {
         background-color: rgba(248, 198, 0, 0.48);
@@ -82,6 +82,20 @@
       .action-button {
         text-align: center;
       }
+      .order-details > .order-details-header {
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+      .order-items {
+        padding-left: 20px;
+      }
+      .order-item {
+        padding: 5px 0;
+      }
+      .order-item > span:first-of-type {
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.7);
+      }
     </style>
   </head>
   <body>
@@ -92,34 +106,51 @@
       />
       <div>See You Again ( SYA )</div>
     </header>
-    <h1>Account Creation</h1>
+    <h1>Structure Validation Notice</h1>
     <div class="content">
       <div>
-        Thank you for signin up on SYA, the number 1 entertaintment platform in
-        Cameroun. We wish you a great stay with us and hope you bring more
-        people.
+        This is to notify you that your structure for which you created an
+        account on SYA platform has been validated by the admins this
+        07/12/2022.
       </div>
-      <div>
-        This Sign-up brought you 100 SYA’s to use in any SYA Structure on the
-        platform for your pruchases.
-      </div>
-      <div>
-        If you want to get more SYA, to win 10SYA, connect your friends unto the
-        platform by using your referal link
-        <a href="https://www.seeyouagain.fun/signup/09037">
-          https://www.seeyouagain.fun/signup/09037</a
+      <div class="nb-block">
+        <span
+          >You can now <a href="https://www.seeyouagain.fun">login</a> to
+          configure your structure and make it visible in the system.</span
         >
+      </div>
+      <div class="order-details">
+        <div class="order-details-header">Configurations to do</div>
+        <div class="order-items">
+          <div class="order-item">
+            <span>Structure Profile</span>
+          </div>
+          <div class="order-item">
+            <span>Services offered</span>
+          </div>
+          <div class="order-item">
+            <span>Catalogs</span>
+          </div>
+          <div class="order-item">
+            <span>Promotions</span>
+          </div>
+          <div class="order-item">
+            <span>Publications</span>
+          </div>
+        </div>
       </div>
     </div>
     <div class="action-button">
-      <a href="https://www.seeyouagain.fun"
-        ><button>Start Shopping Now</button></a
-      >
+      <a href="#"><button>Login Now</button></a>
     </div>
 
     <div class="before-footer">
-      More information on the collaboration between your structure and the SYA
-      team can be found in the <a href="#">terms of agreement</a> document.
+      Given that you just created your account, all services will be on
+      promotion until the system gets a number of bonus points from your
+      account. These are the entry costs. Also, you’ll have to pay monthly dues
+      to keep being on the system. this will be a percentage of your total
+      revenue of the previous month. more details can be found in the
+      <a href="#">terms of agreement</a> accepted during account creation.
     </div>
 
     <footer>
@@ -131,9 +162,9 @@
       </div>
       <div>SYA LLC, Douala - Akwa - 12e Rue</div>
       <div>
-        You are receving this email because you’re registered for the structure
-        on the SYA platform If it is not the case we sincerely apologize. You
-        can <a href="#">signal the error here</a> to stop receiving mails
+        You are receving this email because you’re registered on the SYA
+        platform If it is not the case we sincerely apologize. You can
+        <a href="#">signal the error here</a> to stop receiving mails
       </div>
     </footer>
   </body>
